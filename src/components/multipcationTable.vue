@@ -25,11 +25,11 @@ export default {
         }
       }
       const HtmlStr = `
-        <div class="left_side">
+        <div>
           <h2 class="card_title">${vm.number}</h2>
           <ul class="calc">${part1}</ul>
         </div>
-        <div class="right_side">
+        <div class="second_side">
           <ul class="calc">${part2}</ul>
         </div>`;
       return HtmlStr;
@@ -71,7 +71,7 @@ export default {
       }
     }
   }
-  .right_side{
+  .second_side{
     margin-left: auto;
     margin-top: 4px;
   }

@@ -59,6 +59,7 @@ export default {
     font-size: 128px;
     font-weight: bolder;
     text-align: center;
+    text-shadow: 4px 3px 0 #F0F0F0;
   }
   .calc{
     font-size: 24px;
